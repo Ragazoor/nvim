@@ -93,7 +93,7 @@ map("n", "<leader>rn", function()
 end)
 
 map("n", "<leader>f", function()
-  vim.lsp.buf.formatting()
+  vim.lsp.buf.format()
 end)
 
 map("n", "<leader>ca", function()

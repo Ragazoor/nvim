@@ -17,8 +17,7 @@ else
   "lua require('plugins/indent-blankline')
   "lua require('plugins/nvim-cmp')
   "lua require('plugins/nvim-common-lspconfig')
-  "lua require('plugins/nvim-neogit')
-  "lua require('plugins/nvim-metals')
+  lua require('plugins/nvim-metals')
   "lua require('plugins/nvim-cellular-automaton')
   "lua require('plugins/nvim-treesitter')
 endif

@@ -134,14 +134,14 @@ return packer.startup(function(use)
   --  requires = {'nvim-lua/plenary.nvim', 'sindrets/diffview.nvim'}
   --}
 
-  --use 'tpope/vim-fugitive'
+  use 'tpope/vim-fugitive'
 
   -- ts-utils stuff
   --use { 'jose-elias-alvarez/nvim-lsp-ts-utils', requires = {'neovim/nvim-lspconfig', 'nvim-lua/plenary.nvim'}}
   --use 'jose-elias-alvarez/null-ls.nvim'
 
   -- Scala language server
-  --use({'scalameta/nvim-metals', requires = { 'nvim-lua/plenary.nvim', 'mfussenegger/nvim-dap' }})
+  use({'scalameta/nvim-metals', requires = { 'nvim-lua/plenary.nvim', 'mfussenegger/nvim-dap' }})
 
   -- Procastination
   use 'eandrju/cellular-automaton.nvim'
